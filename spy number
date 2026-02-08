@@ -1,0 +1,19 @@
+<script>
+    var num = 1124
+    var sum = 0
+   var product = 1
+   while(num > 0) 
+   {
+    var digit = num % 10
+    sum += digit 
+    product *= digit
+    num = math.floor(num / 10)
+   }
+   if (sum == product)
+   {
+    document.write(" spy number")
+   }
+   else {
+    document.write("not a spy number")
+   }
+</script>
