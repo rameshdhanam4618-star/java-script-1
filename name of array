@@ -1,0 +1,8 @@
+<script>
+    var a = ["ramesh", "dhanam", "mahilini", "agasthiya"]
+    document.write("length of array" + a.length + "<br>")
+    for (var i = 0; i < a.length; i++) {
+        document.write(a[i] + "<br>")
+    }
+
+</script>
