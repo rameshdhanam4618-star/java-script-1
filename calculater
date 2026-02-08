@@ -1,0 +1,23 @@
+<script>
+    let a = parseInt(prompt("Enter the a number :"))
+    let b = parseInt(prompt("Enter the b number :"))
+    class cal{
+        add (a,b){
+            document.write("Additional value :" +(a+b) +"<br>")
+        }
+        sub(a,b){
+            document.write("Subtraction value :" +(a-b)+"<br>")
+        }
+        mul(a,b){
+            document.write("Multification value :" +(a*b)+"<br>")
+        }
+        div(a,b){
+            document.write("Divition value :" +(a/b) +"<br>")
+        }
+    }
+        let obj = new cal()
+        obj.add(a,b)
+        obj.sub(a,b)
+        obj.mul(a,b)
+        obj.div(a,b)
+</script>
