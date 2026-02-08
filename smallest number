@@ -1,0 +1,10 @@
+<script>
+    var numE = parseInt(prompt("Enter the E number"))
+    var numD = parseInt(prompt("Enter the D number"))
+    if(numE < numD){
+        console.log(numE + "  E is smallest number ")
+    }
+    else{
+        console.log(numD + " D is smallest number ")
+    }
+</script>
