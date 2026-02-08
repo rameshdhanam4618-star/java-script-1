@@ -1,0 +1,7 @@
+<script>
+    console.log("Tomoto")
+    console.log("Potato")
+    console.log("Green chilli")
+    console.log("Ginger")
+    console.log("Cabage")
+</script>
