@@ -1,0 +1,42 @@
+<script>
+   var r =1
+   while(r<=10)
+    {
+     document.write( r + "* 5"  + "= " + (5*r) + "<br>" )
+     r++
+    }
+</script>
+
+
+<script>
+    var a = 10
+   while (a >= 1)
+   {
+       document.write(a + "<br>")
+       a--
+   }
+</script>
+
+
+<script>
+    var d=1
+   while(d <= 10)
+   if (d%2==0)
+   {
+       document.write(d + "<br>")
+       d++
+   }
+</script>
+
+
+<script>
+    var f = 4567
+    var c = 0
+    while (f > 0) {
+        rem = f % 10
+        f = parseInt(f / 10)
+        c++
+    }
+    document.write("Number of digit  " + c)
+
+</script>
