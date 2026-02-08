@@ -1,0 +1,13 @@
+<script>
+    var c=0
+    for (var i =11; i < 15; i++)
+    {
+        var a = i
+        if(a % 2 == 0){
+            document.write(a + "even<br>")
+        }
+        else{
+            document.write(a + "odd<br>")
+        }
+    }
+    </script>
