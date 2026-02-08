@@ -1,0 +1,11 @@
+<script>
+var n = parseInt(prompt(" enter the number"))
+var c = 0
+while (n > 0)
+{
+    var rem = n % 10
+    c++
+    n = parseInt(n / 10)
+}
+document.write(" count digit :" + c)
+    </script>
