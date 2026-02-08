@@ -1,0 +1,9 @@
+<script>
+    var num = 5
+    var fact = 1
+    for ( var i = 1; i <=num; i++)
+    {
+        fact = fact * i
+    }
+    document.write("factorial :" + fact)
+</script>
