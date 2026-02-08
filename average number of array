@@ -1,0 +1,8 @@
+<script>
+    let num = [30,45,68,70,89,65,54,57,87]
+    let total = num.reduce((sum, i)=>sum + i, 0)
+    document.write("total :" +total +"<br>")
+    let length = num.length
+    let avg = total / length
+    document.write("average :" +avg)
+</script>
