@@ -1,0 +1,17 @@
+<script>
+    var a = [11, 12, 13, 14, 15, 16]
+    for (i = 0; i < a.length; i++) {
+        var n = a[i]
+        var rev = 0
+        while (n > 0) {
+            var rem = n % 10
+            rev = rev * 10 + rem
+            n = parseInt(n / 10)
+        }
+        document.write("rever the numbers<br>" + rev)
+    }
+</script>
+
+
+
+
