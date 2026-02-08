@@ -1,0 +1,15 @@
+<script>
+    var a = [123,345,567]
+    for(var j = 0; j<a.length; j++)
+{
+    var n = a[j]
+    var sum = 0
+    while(n>0)
+    {
+        var rem = n % 10
+        sum = sum + rem
+        n = parseInt(n/10)
+    }
+    document.write(" sum of digit " + sum + "<br>")
+}
+</script>
