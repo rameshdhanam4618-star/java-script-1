@@ -1,0 +1,21 @@
+<script>
+    var ar = [23,45,65,78]
+    for(i =0; i<a.length; i++)
+{
+    var n = ar[i]
+    var num = n
+    var rev = 0
+    while (n>0)
+    {
+    rev = rev * 10 + (num % 10)
+    num = parseInt(num / 10)
+    }
+    if (rev == n)
+    {
+        document.write(" palindrome number <br>")
+    }
+    else {
+        document.write(" not polindfrome number<br>")
+    }
+}
+</script>
