@@ -1,0 +1,10 @@
+<script>
+    var numS = parseInt(prompt("Enter the S number"))
+    var numT = parseInt(prompt("Enter the T number"))
+    if(numS < numT){
+        console.log(numS + " S is Taller ")
+    }
+    else{
+        console.log(numT + " T is taller ")
+    }
+</script>
