@@ -1,0 +1,40 @@
+<script>
+    var sum = 0
+    for(var i =1; i<=5;i++ )
+    {
+        sum = sum + i
+
+    }
+    document.write(sum)
+</script>
+
+
+<script>
+    var sum = 0
+    for (var i = 50; i <= 70; i++)
+    {
+        sum = sum + i
+    }
+    document.write(sum)
+</script>
+
+ <script>
+    var product = 1
+    for (var i = 1; i <=50; i++)
+    {
+        product= product * i
+    }
+    document.write(product)
+ </script>
+
+<script>
+    var n = 12345
+    var sum = 0
+    while(n>0)
+    {
+        var rem = n%10
+        sum = sum + rem
+        n = parseInt(n/10)
+    }
+    document.write(" sum of digit" + sum)
+</script>
