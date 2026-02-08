@@ -1,0 +1,10 @@
+<script>
+    var numR = parseInt(prompt("Enter the number"))
+    var numD = parseInt(prompt("Enter the number"))
+    if(numR > numD){
+        console.log(numR + "  R is Bigger")
+    }
+    else{
+        console.log(numD + " D is Bigger")
+    }
+</script>
