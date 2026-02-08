@@ -1,0 +1,48 @@
+<script>
+    for (var i = 1; i <= 10; i++)
+    {
+    console.log(i)
+    }
+</script>
+
+<script>
+     for (var i = 21; i >= 10; i--)
+    {
+    console.log(i)
+    }
+</script>
+
+<script>
+    for (var i = 1; i <= 100; i+=10)
+   {
+   console.log("xyz")
+   }
+</script>
+
+<script>
+    for (var i = 25; i >=15; i--)
+   {
+   console.log("abc")
+   }
+</script>
+
+<script>
+    for (var c = 50; c <= 100; c++)
+   {
+   console.log("and")
+   }
+</script>
+
+<script>
+    for (var d = 4; d >= -4; d--)
+   {
+   console.log(i)
+   }
+</script>
+
+<script>
+    for (var e = 100; e >= 55; i--)
+   {
+   console.log(i)
+   }
+</script>
