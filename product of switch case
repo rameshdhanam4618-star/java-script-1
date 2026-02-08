@@ -1,0 +1,26 @@
+<script>
+    var product_name = prompt("Watch or Mobile")
+    var price = 0
+    switch (product_name) {
+        case "watch":
+            document.write("Price 10,000")
+            var quantity = parseInt(prompt("quantity"))
+            price = quantity * 10000
+            document.write("<br>price " + price)
+            break;
+        case "mobile":
+            document.write("price 24,000")
+            var quantity = parseInt(prompt("quantity"))
+            price = quantity * 24000
+            document.write("<br>price " + price)
+            break;
+        default:
+            document.write("THANK YOU")
+    }
+if (price >=15000){
+    document.write("<br>Discount "+ (price-5000))
+}
+else{
+    document.write("No discount " + price)
+}
+</script>
