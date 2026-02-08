@@ -1,0 +1,10 @@
+<script>
+    var numP = parseInt(prompt("Enter the P number"))
+    var numQ = parseInt(prompt("Enter the Q number"))
+    if(numP < numQ){
+        console.log(numP + "  P FIRST IS HEAVIER  ")
+    }
+    else{
+        console.log(numQ + " Q SECOND IS HEAVIER  ")
+    }
+</script>
