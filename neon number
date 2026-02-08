@@ -1,0 +1,17 @@
+<script>
+    var num =9
+    var sq = num*num
+    var sum = 0
+    while(sq > 0)
+    {
+        sum = sq % 10
+        sq = parseInt(sq /10)
+}
+if (sum==num)
+{
+    document.write(" neon number")
+}
+else{
+    document.write("not neon n umber")
+}
+</script>
