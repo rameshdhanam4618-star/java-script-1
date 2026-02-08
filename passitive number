@@ -1,0 +1,9 @@
+<script>
+    var numA = parseInt(prompt("Enter the number"))
+    if( numA > 0 ){
+        console.log(" Pasitive ")
+    }
+    else{
+        console.log(" Negative ")
+    }
+</script>
