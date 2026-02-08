@@ -1,0 +1,12 @@
+<script>
+    let n = parseInt(prompt("Enter the number "))
+    let f =0 
+    let s = 1
+for (let i = 1; i<=n; i++)
+{
+    document.write(f + "fabonacci number<br>" )
+    let t= f + s
+    f = s
+    s = t
+}
+</script>
