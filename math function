@@ -1,0 +1,11 @@
+<script>
+    let a =[]
+    for (let i = 0; i<5; i++)
+    {
+        let a = parseInt(prompt("enter the elements"))
+     }
+     document.write("array" + a + "<br>")
+     
+
+
+</script>
