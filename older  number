@@ -1,0 +1,10 @@
+<script>
+    var numE = parseInt(prompt("Enter the E Age "))
+    var numD = parseInt(prompt("Enter the D Age"))
+    if(numE < numD){
+        document.write(numE + "  E First is older  ")
+    }
+    else{
+        document.write(numD + " D Ssecond is older ")
+    }
+</script>
