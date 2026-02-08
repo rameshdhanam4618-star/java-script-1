@@ -1,0 +1,12 @@
+<script>
+    var num = 6
+    var a = parseInt(num / 10)
+    var b = num % 10
+    if ( a + b + (a * b)==num)
+    {
+        document.write("special two digit number")
+    }
+    else{
+        document.write(" not a special number")
+    }
+</script>
