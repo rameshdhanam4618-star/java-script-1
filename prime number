@@ -1,0 +1,23 @@
+<script>
+    var num = parseInt(prompt( "Enter the value :"))
+    var c = 0
+    for (var i = 2; i < num; i++)
+    {
+        if(num % 2 == 0)
+        {
+            c++;
+            break;
+        }
+    }
+    if (c==0)
+    {
+        document.write (num + "is prime number")
+    }
+    else{
+        document.write(num + "is not prime number")
+    }
+</script>
+   
+
+
+
