@@ -1,0 +1,22 @@
+<script>
+    var mark = parseInt(prompt ("Enter the mark"))
+    if (mark >=90 && mark <=100 )
+    {
+        console.log("A grade ")
+    }
+    else if (mark >=60 && mark <=90)
+    {
+        console.log("B grade")
+    }
+    else if (mark >=40 && mark <=60)
+    {
+        console.log("C grade")
+    }
+    else if (mark >=40)
+    {
+        console.log("D grade")
+    }
+    else {
+        console.log("Fail")
+    }
+</script>
