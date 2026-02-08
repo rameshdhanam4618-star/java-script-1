@@ -1,0 +1,12 @@
+<script>
+    var numE = parseInt(prompt("Enter the E number"))
+    if(numE > 40){
+        document.write("VERY HOT")
+    }
+    else if (numE == 40){
+        document.write(" NORMAL ")
+    }
+    else{
+        document.write(" COLD ")
+    }
+</script>
